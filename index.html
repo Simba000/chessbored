@@ -1,12 +1,84 @@
+
 <!DOCTYPE html>
 <head>
 <meta name="description" content="PROG 109 - Chessboard" />
 <meta charset="utf-8" />
 <title>Chess HTML5-Template</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="chessbored">
-</head>
-  <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/just-letters" type="text/css"/>
+<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/just-letters" type="text/css"/>
+<style>
+body {
+background-image:url("https://i.pinimg.com/originals/ce/9f/7e/ce9f7eb5f6803e748217e279bb2f03e1.jpg");
+}
+
+
+#title {
+position:fixed;
+top:0px;
+left:0px;
+padding:10px;
+margin:0px;
+width:100%;
+background-color:Lightyellow;
+text-align:center;
+z-index:10;
+font-family: 'JustLettersMedium'; 
+ font-weight: normal; 
+ font-style: normal; 
+ font-size:36px;
+background-color: #FFDFB9;  
+}
+
+
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 2px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #A4193D;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align::Center;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #FFDFB9;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+#container {
+ margin-top:10%;
+ margin-left:0%;
+ margin-right:0%;
+ margin-bottom:0%;
+}
+.row{
+ position:relative;
+ margin-left:0%;
+ margin-right:0%;
+}
+img {
+margin-left: 5px;
+margin-top:10px;
+}
+#footer {
+border:solid 1px;
+padding: 10px;
+margin:10px;
+background-color:Lightyellow;
+}
+
+}
+</style>
 </head>
 <body>
 <h1 id="title">Chessboard</h1>
@@ -91,7 +163,6 @@
 <div class="clear"> </div>
 <div id="footer"><p><a href="https://validator.w3.org/nu/check?uri=referer" target="_blank">NU HTML Checker </a><br>
 <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p></div>
-
 
 </body>
 </html>
